@@ -1,0 +1,11 @@
+{
+  "name": "ripgrep",
+  "description": "recursively search directories for a regex pattern while respecting your gitignore",
+  "clone_command": "git clone ",
+  "clone_url": "https://github.com/BurntSushi/ripgrep.git",
+  "build": "cd /tmp/ripgrep && CC=clang cargo build --release",
+  "binary_name": "rg",
+  "binary_dir": "target/release/",
+  "dependencies": ["cargo", "rustc", "clang"],
+  "os": ["linux", "macos"]
+}
