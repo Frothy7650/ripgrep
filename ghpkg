@@ -4,6 +4,7 @@
   "clone_command": "git clone ",
   "clone_url": "https://github.com/BurntSushi/ripgrep.git",
   "build": "cd /tmp/ripgrep && CC=clang cargo build --release",
+  "post": "",
   "binary_name": "rg",
   "binary_dir": "target/release/",
   "dependencies": ["cargo", "rustc", "clang"],
